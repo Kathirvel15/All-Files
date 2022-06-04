@@ -1,0 +1,10 @@
+window.addEventListener("load",function()
+{
+    this.setTimeout(
+            function()
+            {
+                document.querySelector(".popup-header").style.display="block";
+                document.querySelector(".color").style.display="block";
+            },1000
+    )
+});

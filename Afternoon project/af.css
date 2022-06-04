@@ -1,0 +1,181 @@
+/*1st image*/
+.images{
+    display: block;
+    margin: auto;
+    width: 70%;
+    height: 80%;
+}
+/*image bottom Heading*/
+.heading{
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-align: center;
+    color: #51565E;
+    font-size: 28.8px;
+    font-family: sans-serif;
+}
+.subheading{
+    font-size: 1.1rem;
+    font-weight: 400;
+    text-align: center;
+    font-size: 17.6px;
+    padding: 4.70312px 0px 0px;
+    font-family: sans-serif;
+}
+.nav_bar hr{
+    margin-top: 2%;
+    width: 85%;
+    height: 1px;
+    background-color: gray;
+}
+/*Question Part */
+.question{
+    font-size: 25.6px;
+    line-height: 2rem;
+    font-weight: 700;
+    font-family: sans-serif;
+    color: #51565E;
+    text-align: center;
+
+}
+.nav_bar label{
+    font-size: 20.8px;
+    font-weight: 600;
+    width: 100%;
+    display:inline-block;
+    color: #51565E;
+
+}
+.nav_bar input[name="option"]{
+    border: 5px;
+    transform: scale(2);
+    margin: 12px;
+    text-align: center;
+    /* margin-left: 37em; */
+    margin-left: 35%;
+}
+.option3{
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 37%;
+    font-family: sans-serif !important;
+    color: #51565E;
+
+}
+.nav_bar #optionValidation
+ {
+    display: none;
+    text-align: center;
+    margin-bottom: 2%;
+    color: red;
+}
+.nav_bar #next1{
+    margin: 0px 0px 2%;
+    position: absolute;
+    left: 45%;
+    /* transform: translate(-50%, -50%); */
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+    white-space: nowrap;
+    border: none;
+    background-color: rgb(101, 88, 245) ;
+    padding: 1% 2%;
+    border-radius: 5px;
+    width: 10%;
+    margin-top: 2em;
+}
+
+.nav_bar #myProgress{
+    margin-top: 8%;
+    margin-bottom: 5%;
+    position: absolute;
+    left: 15%;
+    /* transform: translate(-50%, -50%); */
+    width: 70%;
+    background-color: rgb(221, 221, 221);
+    border-radius: 5px;
+}
+.nav_bar #myBar{
+    width: 33.33%;
+    height: 30px;
+    background-color: rgb(101, 88, 245);
+    border-radius: 5px;
+}
+/* Next Page */
+.share{
+    text-align: center;
+    font-size: 25.6px;
+    font-family: sans-serif;
+    color: #51565E;
+    font-weight: 700;
+}
+.inputStyle{
+    font-weight: 400;
+    width: 20%;
+    padding: 12px 20px;
+    margin-top: 3%;
+    display: inline-block;
+    border: 1px solid rgb(92, 88, 88);
+    border-radius: 6px;
+    box-sizing: border-box;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.phoneInfo{
+    margin-top: 7%;
+    text-align: center;
+    font-size: 19.2px;
+    font-weight: 700;
+    color: #51565E;
+    font-family: sans-serif;
+
+}
+.subPhoneInfo{
+    margin-bottom: 7%;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    color: #51565E;
+    margin: 0px 0px 32.927px;
+    font-family: sans-serif;
+}
+input[type=checkbox] {
+    cursor: pointer;
+    box-sizing: border-box;
+    width: 23px;
+    height: 20px;
+    margin-left: 37%;
+}
+.flexCheckbox{
+    display: flex;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+}
+.agreePolicy{
+    /* margin-left: %; */
+    font-size: 16px;
+    text-align: justify;
+    color: #51565E;
+    margin: 0px 0px 9.4062px;
+    font-family: 'poppins';
+    margin-right: 30%;
+    
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: normal;
+    color: #51565e;
+    text-align: left;
+}
+.nav_bar
+{
+    left:50%;;
+}
+#next1
+{
+    cursor:pointer;
+}

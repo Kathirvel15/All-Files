@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+#kk
+{
+display:none;
+}
+</style>
+</head>
+<body>
+
+<form action="servlet1" method="post">  
+Name:<input type="text" name="username"/><br/><br/>  
+Password:<input type="password" name="userpass"/><br/><br/>  
+<input type="submit"onclick="amir()" value="login"/>  
+</form>
+<div id="kk">
+<input type="checkbox">1 rupee chocolate<br>
+<input type="checkbox">2 rupee chocolate<br>
+<input type="checkbox">3 rupee chocolate<br>
+</div>
+<script>
+function amir()
+{
+var abcd=document.getElementById("kk");
+abcd.style.display="block";
+}
+</script>
+</body>
+</html>

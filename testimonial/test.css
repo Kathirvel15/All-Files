@@ -1,0 +1,154 @@
+body
+{
+    margin: 0px;
+}
+.header
+{
+    background-color:red;
+    width: 100%;
+    height: 100%;
+}
+.header-header
+{
+    display: flex;
+    width: 80%;
+    margin:auto;
+}
+.header-col-1
+{
+    width: 33%;
+    border:1px solid;
+    height: 50%;
+    margin: 10px;
+    position: relative;
+}
+.header-col-div
+{
+    background-color: blue;
+    height: 200px;
+}
+.test-place
+{
+    background-color: #3590E8;
+    float: right;
+    padding: 0px 10px 0px 10px;
+    margin: 10px 0px 10px 10px;
+    border-radius: 10px 0px 0px 10px;
+}
+.test-place p{
+    margin:10px;
+    color: white;
+    font-weight: 600;
+}
+.test-place-row
+{
+    width: 95%;
+    display: flex;
+    margin: 10px;
+}
+.test-place-col1
+{
+    width: 70%;
+}
+.test-place-col1 #para
+{
+    font-size: 20px;
+    color:white;
+    font-weight: 600;
+    margin: 0px;
+}
+.test-place-col1 #para2
+{
+    font-size: 10px;
+    color:white;
+}
+.test-place-col2
+{
+    width: 30%;
+   text-align: right;
+   padding: 10px;
+}
+.test-place-col2 img
+{
+    width: 50%;
+}
+.header-col-div2
+{
+    position: absolute;
+    top: 34%;
+    background-image: url("image 12.png");
+    padding: 25px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.header-row-div
+{
+    width: 96%;
+    margin:auto;
+    display: flex;
+}
+.header-col-0-div,.header-col-2-div
+{
+    background-color: white;
+    border-radius: 50%;
+    width: 33%;
+    padding: 5px;
+}
+.header-col-0-div .imgg,.header-col-2-div .imgg
+{
+    text-align: center;
+    padding: 5px;
+}
+.header-col-0-div .pp,.header-col-2-div .pp
+{
+    text-align: center;
+}
+.header-col-0-div p,.header-col-2-div p
+{
+    font-size: 8px;
+}
+.header-col-1-div
+{
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-col-2-div
+{
+    width: 33%;
+}
+.header-col-div3
+{
+    background-color: white;
+    padding: 20px;
+    padding-top: 40px;
+}
+.header-col-div3 .header-p,.header-para
+{
+    text-align: center;
+}
+.header-para-para
+{
+    text-align: center;
+    font-size:14px;
+    color: blue;
+    margin-top: 10px;
+}
+.header-col-2
+{
+    width: 33%;
+    border:1px solid;
+    height: 50%;
+    margin: 10px;
+    position: relative;
+}
+.header-col-3
+{
+    width: 33%;
+    border:1px solid;
+    height: 50%;
+    margin: 10px;
+    position: relative;
+}

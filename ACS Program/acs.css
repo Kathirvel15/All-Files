@@ -1,0 +1,47 @@
+.section-1
+{
+    width: 90%;
+    margin:auto;
+}
+.section-split
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.section-split div
+{
+font-family: "Poppins";
+font-size: 30px;
+font-weight: 600;
+color:#855EFF;
+}
+.para,.para-left
+{
+    font-size: 23px;
+}
+.splitbtn button
+{
+    font-size: 23px;
+color:white;
+border:none;
+padding: 10px;
+background-color:#855EFF;
+}
+.split-1
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #7A57E9;
+    padding: 10px;
+    margin-top:10px;
+}
+.kk
+{
+    margin-left: 1em;
+}
+.ii
+{
+    margin-left: 2em;
+}

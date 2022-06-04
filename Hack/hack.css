@@ -1,0 +1,99 @@
+span{
+    font-weight:600;
+    font-size:32;
+    cursor:pointer;
+    margin-left:50px;
+    padding-top:100px;
+}
+a{
+    margin-left:800px;
+    margin-right:50px;
+}
+button{
+    
+    padding-left:30px;
+    padding-right:30px;
+    padding-top: 10px;
+    font-size :15px;
+    padding-bottom:10px;
+}
+.class
+{
+    padding-top: 50px;
+}
+.kk
+{
+    position:fixed;
+    background-color: #ffff;
+    padding-top: 20px;
+margin-top: -8px;
+width: 100%;
+}
+.row
+{
+    padding-top:100px;
+    width:100%;
+}
+.col-1
+{
+    width:50%;
+    float:left;
+}
+.col-1 h1{
+    margin-left:100px;
+    margin-right:150px;
+    font-size: 45px;
+    font-weight: 100;
+}
+.col-2
+{
+    width:50%;
+    float:left;
+}
+.rows
+{
+    width:100%;
+}
+.col-11
+{
+    width:44%;
+    float:left;
+    padding-left:100px;
+}
+.col-22
+{
+    width:40%;
+    float:left;
+}
+.col-11 h2{
+    font-weight:800;
+    font-size:30px;
+    font-family: 'Open Sans';
+}
+.col-11 p{
+    font-weight: bolder;
+    font-family: 'Open Sans';
+    
+}
+.col-22 p{
+    font-weight:800;
+}
+.col-11 button{
+    background-color: green;
+    font-weight: 800;
+    color:white;
+    border:none;
+}
+.col-22 button{
+    border:green;
+    color:green;
+    font-weight:800;
+}
+.col-22 img{
+    background-position: center;
+    background-size: cover;
+}
+.col-11 .copy p{
+    font-weight:300; 
+    margin-top:100px;   
+}

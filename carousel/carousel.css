@@ -1,0 +1,56 @@
+.head-carousel
+{
+    display:flex;
+    gap:40px;
+    width: 100%;
+    margin: 0px auto 0px 0px;
+}
+.head-first
+{
+    width: 20%;
+    border:1px solid;
+}
+.head-heading
+{
+    margin:20px;
+}
+.head-headingg
+{
+    border:1px solid;
+    padding:30px;
+}
+.head-img
+{
+    border:1px solid;
+    padding: 30px;
+}
+.read
+{
+    float:right;
+}
+.head-second
+{
+    width: 20%;
+    height:200px;
+}
+.headd-second
+{
+    border:1px solid;
+}
+.second-second
+{
+    margin:1px 0px;
+    padding:30px;
+}
+.head-third
+{
+    border:1px solid;
+    width: 20%;
+    height:200px;
+}
+.head-fourth
+{
+    border:1px solid;
+    width: 20%;
+    height:200px;
+}

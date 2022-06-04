@@ -1,0 +1,62 @@
+*
+{
+    margin: 0px;
+}.popup-header
+{
+    display: none;
+    position: fixed;
+    width: 40%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px;
+    background-color: green;
+    z-index: 9999999;
+}
+.popup-header h4{
+    text-align: center;
+    color: blue;
+}
+.join-header,.experience
+{
+    margin-top: 20px;
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+}
+.experience
+{
+    margin-top: 40px;
+}
+input
+{
+    width: 100%;
+    line-height: 30px;
+    margin-top: 40px;
+}
+.popup-button
+{
+    margin-top: 40px;
+}
+.popup-button button
+{
+    width: 100%;
+    background-color: blue;
+    border: none;
+    color: white;
+    line-height: 35px;
+    font-size: 16px;
+}
+.close-popup
+{
+    float: right;
+    font-size: 25px;
+}
+.color
+{
+    background-color:black;
+    opacity: 0.8;
+    width: 100%;
+    height: 100%;
+    display: none;  
+}

@@ -1,0 +1,465 @@
+
+<html>
+    <head>
+        <style>
+            .nameContainer{
+                box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+                transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+                background: #fff;
+                margin:20px 30px 0px 0px ;
+                padding: 10px;
+                height: 100px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                /*width: 75%;*/
+            }
+            .detailContainer{
+                 box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+                transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+                background: #fff;
+                padding: 10px;
+                margin:20px 30px 0px 0px ;
+            }
+            .carouselView{
+                 cursor: pointer;
+                height: 10px;
+                width: 10px;
+                margin: 0 2px;
+                background-color: #bbb;
+                border-radius: 50%;
+                display: inline-block;
+                transition: background-color 0.6s ease;
+            }
+            .currentState{
+                 background-color: #000;
+            }
+            .carouselDots{
+                width: 50%;
+                margin: auto;
+            }
+            #SecondTestimonial{
+                display: none;
+            }
+            #ThirdTestimonial{
+                display: none;
+            }
+            .fades{
+                animation-name: fade;
+         animation-duration: 1.5s;
+            }
+            .imageContainer{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+            }
+         .imgSizecontainer{
+                width: 33%;
+                text-align: center;
+         }
+         #testimonialimage
+         {
+                background-color: white;
+                border-radius: 50%;
+                padding: 15px;
+            }
+         .courseSection{
+         text-align: center;
+         }
+            
+         @keyframes fades {
+         from {opacity: .4} 
+         to {opacity: 1}
+         }
+         .ScoreCard
+         {
+         font-weight: 700;
+         padding-left:20px;
+         }
+         .nameDiv
+         {
+         font-weight: 700;
+         font-size: 18px;
+         color: #4B67FF;
+         font-family: "Inter", Sans-serif;
+         }
+         .departDiv{
+         font-size:14px;
+         }
+         .nameContainer
+         {
+         border-radius: 10px; 
+         background-image: linear-gradient(366.32deg, #FFFFFF 14.02%, #DAE9FF 85.75%)
+         }
+         .detailContainer
+         {
+         border-radius: 10px;
+         background: linear-gradient(182.74deg, #FFD9D9 2.07%, #FFFFFF 93.51%);
+         }
+         .descriptionCard
+         {
+         color:red;
+         animation:mymove 1s infinite;
+         padding-left:20px;
+         font-weight: 500;
+         }
+         @keyframes mymove
+         {
+         from{color:green;}
+         to{color:orange;}
+         }
+         .courseSection
+         {
+         font-weight: 700;
+         font-size: 20px;
+         }
+         </style>
+    </head>
+    <body>
+         <div class="container fades" id="FirstTestimonial">
+   <div class="row" style="align-items:center;">
+       <div class="col-md-4 col-sm-4 col-xs-12">
+          <div>
+            <div class="nameContainer">
+            
+                <div class="nameDiv">
+                     Pranjal S.  
+                    </div>
+              <div class="departDiv">
+                 Biologically-Inspired System Science &
+  Computer Science
+  
+              </div>
+                </div>
+              <div class="nameContainer">
+                  <div class="nameDiv">
+                    Satish P.    
+                  </div>
+            <div class="departDiv">
+                Mechanical Engineering
+
+            </div>
+            
+              </div>
+              <div class="nameContainer">
+            
+              <div class="nameDiv">
+                   Pranjal S.  
+                  </div>
+            <div class="departDiv">
+               Biologically-Inspired System Science &
+Computer Science
+
+            </div>
+              </div>
+          </div>
+       </div>
+       <div class="col">
+          <div>
+            <div class="detailContainer">
+       
+                <div class="courseSection">
+                    Placement Assistance
+                 </div>
+              <div class="imageContainer">
+               
+                 <div class="imgSizecontainer">
+               <img id="testimonialimage" src="https://cms-stage-2.thecareerlabs.com/wp-content/uploads/2022/04/the-oxford-college-of-engineering-bangalore-333121616574619.png"  width="90px;" /></div>
+               <div class="imgSizecontainer">
+               <img src="https://cms-stage.thecareerlabs.com/wp-content/uploads/2022/03/Vector-2.png"/>
+               </div>
+               <div class="imgSizecontainer">
+               <img id="testimonialimae" src="https://cms-stage-2.thecareerlabs.com/wp-content/uploads/2022/04/Micro_Focus_logo.png" width=90px />
+               </div>
+             </div>  
+             <div>
+                 <div class="ScoreCard">
+                 Role : Data Scientist <br>
+                 Package : 8.5LPA
+                 </div>
+                 <div class="descriptionCard">
+                     "CareerLabs is one of the best platforms  I've come across, wherein one can build upon their communication as well as aptitude skills."
+
+                 </div>
+             </div>
+          </div>
+              <div class="detailContainer">
+                    <div class="courseSection">
+                        GRE
+                     </div>
+                  <div class="imageContainer">
+                   
+                     <div class="imgSizecontainer">
+                   <img id="testimonialimage" src="https://cms-stage.thecareerlabs.com/wp-content/uploads/2022/03/NIT_Rourkela_Colour_Logo.png"  width="100px;" /></div>
+                   <div class="imgSizecontainer">
+                   <img src="https://cms-stage.thecareerlabs.com/wp-content/uploads/2022/03/Vector-2.png"/>
+                   </div>
+                   <div class="imgSizecontainer">
+                   <img id="testimonialimag" src="https://cms-stage.thecareerlabs.com/wp-content/uploads/2022/03/London_Business_School_logo.svg.png" width=80px; />
+                   </div>
+                 </div> 
+                 <div>
+                     <div class="ScoreCard">
+                      GRE Score : 334   
+                     </div>
+                     <div class="descriptionCard">
+                         "Receiving an admit from London Business School, is really exciting. CareerLabs' Essay and CV reviews are what helped me crack this. They also helped me select the right schools, once my GRE score was out."
+
+                     </div>
+                 </div>
+              </div>
+              <div class="detailContainer">
+                   <div class="courseSection">
+                        GMAT
+                     </div>
+                      <div class="imageContainer">
+                   
+                     <div class="imgSizecontainer">
+                   <img id="testimonialimage" src ="https://cms-stage-2.thecareerlabs.com/wp-content/uploads/2022/04/Logo_IITJ.png"  width="100px;" /></div>
+                   <div class="imgSizecontainer">
+                   <img src="https://cms-stage.thecareerlabs.com/wp-content/uploads/2022/03/Vector-2.png"/>
+                   </div>
+                   <div class="imgSizecontainer">
+                   <img id="testimonialimag" src="https://cms-stage-2.thecareerlabs.com/wp-content/uploads/2022/04/1200px-Kellogg_School_of_Management.svg.png" width=100px; />
+                   </div>
+                 </div> 
+                  <div>
+                     <div class="ScoreCard">
+                     GMAT Score : 770
+                     </div>
+                     <div class="descriptionCard">
+                         "I was kind of shaky about which schools to apply for. Through multiple calls with Krithika Ma'am, I was able to narrow own on my B-School choices. The CareerLabs Support Team were really responsibe and ensured that I was able to complete my essays on time. Their GMAT assistance were far beyond my expectations."
+
+                     </div>
+                 </div>
+                  
+              </div>
+          </div>
+       </div>
+   </div>
+</div>
+
+  <div class="container fades" id="SecondTestimonial">
+   <div class="row" style="align-items:center;">
+       <div class="col-md-4 col-sm-4 col-xs-12">
+          <div>
+              <div class="nameContainer">
+                  <div class="nameDiv">
+                 Deepika S.
+                  </div>
+            <div class="departDiv">
+            Electronics & Communication Engineering
+            </div>
+            
+              </div>
+              <div class="nameContainer">
+            
+              <div class="nameDiv">
+                 Abhash K.
+                  </div>
+            <div class="departDiv">
+               Electronics & Telecommunication Engineering
+
+            </div>
+              </div>
+          </div>
+       </div>
+       <div class="col">
+          <div>
+              <div class="detailContainer">
+                    <div class="courseSection">
+                         Placement Assistance
+                     </div>
+                 <div class="imageContainer">
+                   
+                     <div class="imgSizecontainer">
+                   <img id="testimonialimage" src="https://cms-stage-2.thecareerlabs.com/wp-content/uploads/2022/03/Vellore_Institute_of_Technology_seal_2017.svg-1.png"  width="90px;" /></div>
+                   <div class="imgSizecontainer">
+                   <img src="https://cms-stage.thecareerlabs.com/wp-content/uploads/2022/03/Vector-2.png"/>
+                   </div>
+                   <div class="imgSizecontainer">
+                   <img id="testimonialimage" src="https://cms-stage-2.thecareerlabs.com/wp-content/uploads/2022/03/2560px-Mercedes-Benz_Logo_2010.svg.png" width=100px />
+                   </div>
+                 </div> 
+                 <div>
+                     <div class="ScoreCard">                    Role : Embedded Developer<br>
+
+Package : 10 LPA<br>
+                     </div>
+                     <div class="descriptionCard">
+                         "I thank CareerLabs for providing me this wonderful opportunity to learn and grow in my domain of interest."
+
+                     </div>
+                 </div>
+              </div>
+              <div class="detailContainer">
+                  <div class="courseSection">
+                         Placement Assistance
+                     </div>
+                       <div class="imageContainer">
+                   
+                     <div class="imgSizecontainer">
+                   <img id="testimonialimage" src="https://cms-stage.thecareerlabs.com/wp-content/uploads/2022/03/B.M.S._Institute_of_Technology_and_Management_logo.png"  width="90px;" /></div>
+                   <div class="imgSizecontainer">
+                   <img src="https://cms-stage.thecareerlabs.com/wp-content/uploads/2022/03/Vector-2.png"/>
+                   </div>
+                   <div class="imgSizecontainer">
+                   <img id="testimonialimage" src="https://cms-stage.thecareerlabs.com/wp-content/uploads/2022/03/blob.png" width="90px;" />
+                   </div>
+                 </div> 
+                  <div>
+                     <div class="ScoreCard">
+                   
+Role : Software Engineer (Intern)<br>
+
+Package : 12.5 LPA<br>       
+                     </div>
+                     <div class="descriptionCard">
+                         "I enrolled into CareerLabs to explore my interests in the area of Embedded Systems, and to be honest it gave me the much-required practical experience. Along with the same, I also got the opportunity to indulge in Machine Learning and Programming Languages."
+
+                     </div>
+                 </div>
+                  
+              </div>
+          </div>
+       </div>
+   </div>
+</div>
+
+<div class="container fades" id="ThirdTestimonial">
+   <div class="row" style="align-items:center;">
+       <div class="col-md-4 col-sm-4 col-xs-12">
+          <div>
+              <div class="nameContainer">
+                  <div class="nameDiv">
+                    Jeysri L. S.    
+                  </div>
+            <div class="departDiv">
+                Information Science & Engineering
+
+            </div>
+            
+              </div>
+              
+             
+          </div>
+       </div>
+       <div class="col">
+          <div>
+              <div class="detailContainer">
+       
+                    <div class="courseSection">
+                        Placement Assistance
+                     </div>
+                  <div class="imageContainer">
+                   
+                     <div class="imgSizecontainer">
+                   <img id="testimonialimage" src="https://cms-stage-2.thecareerlabs.com/wp-content/uploads/2022/04/the-oxford-college-of-engineering-bangalore-333121616574619.png"  width="90px;" /></div>
+                   <div class="imgSizecontainer">
+                   <img src="https://cms-stage.thecareerlabs.com/wp-content/uploads/2022/03/Vector-2.png"/>
+                   </div>
+                   <div class="imgSizecontainer">
+                   <img id="testimonialimae" src="https://cms-stage-2.thecareerlabs.com/wp-content/uploads/2022/04/Micro_Focus_logo.png" width=90px />
+                   </div>
+                 </div>  
+                 <div>
+                     <div class="ScoreCard">
+                     Role : Data Scientist <br>
+                     Package : 8.5LPA
+                     </div>
+                     <div class="descriptionCard">
+                         "CareerLabs is one of the best platforms  I've come across, wherein one can build upon their communication as well as aptitude skills."
+
+                     </div>
+                 </div>
+              </div>
+              <div class="detailContainer">
+                    
+                    <div class="courseSection">
+                        GRE
+                     </div>
+                  <div class="imageContainer">
+                   
+                     <div class="imgSizecontainer">
+                   <img id="testimonialimage" src="https://cms-stage.thecareerlabs.com/wp-content/uploads/2022/03/NIT_Rourkela_Colour_Logo.png"  width="90px;" /></div>
+                   <div class="imgSizecontainer">
+                   <img src="https://cms-stage.thecareerlabs.com/wp-content/uploads/2022/03/Vector-2.png"/>
+                   </div>
+                   <div class="imgSizecontainer">
+                   <img id="testimonialimage" src="https://cms-stage-2.thecareerlabs.com/wp-content/uploads/2022/04/download.png" width=90px />
+                   </div>
+                 </div> 
+                  <div>
+                     <div class="ScoreCard">
+                     GMAT Score : 334
+                     </div>
+                     <div class="descriptionCard">
+                        "Over the sessions, I realized how precise a CV should be. The editors were really patient with me. Applying to foreign has a lot of steps, and it was overhelming, but Careerlabs was a huge support."
+
+                     </div>
+                 </div>
+                  
+              </div>
+          </div>
+       </div>
+   </div>
+</div>
+
+<div class="carouselDots">
+   <span class="carouselView currentState" id="FirstdotTestimonial"></span>
+   <span class="carouselView" id="SeconddotTestimonial"></span>
+   <span class="carouselView" id="ThirddotTestimonial"></span>
+</div>
+<script>
+    $(document).ready(function () {
+var FirstSlide = document.getElementById("FirstTestimonial");
+
+ var SecondSlide = document.getElementById("SecondTestimonial");
+ 
+   var ThirdSlide = document.getElementById("ThirdTestimonial");
+   
+var boxWidth = $(SecondSlide).width();
+
+var boxWidth1 = $(ThirdSlide).width();
+
+var boxWidth2 = $(FirstSlide).width();
+
+$("#FirstdotTestimonial").click(function(){
+   
+$(FirstSlide).animate({
+           width: boxWidth2
+       },500);  
+   SecondSlide.style.display = "none";
+  FirstSlide.style.display="block"; 
+    ThirdSlide.style.display = "none";
+  
+});
+ $("#SeconddotTestimonial").click(function(){
+
+$(SecondSlide).animate({
+           width: boxWidth
+       },500);
+  SecondSlide.style.display = "block";
+  FirstSlide.style.display="none";
+    ThirdSlide.style.display = "none";
+});
+ $("#ThirddotTestimonial").click(function(){
+     
+     
+$(ThirdSlide).animate({
+           width: boxWidth1
+       },500);
+     ThirdSlide.style.display = "block";
+  FirstSlide.style.display="none";
+    SecondSlide.style.display = "none";
+});
+$(".carouselView").click(function () {
+ $(".carouselView").removeClass("currentState");
+$(this).addClass("currentState");
+ });     
+    });
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</body>
+</html>
